@@ -1,0 +1,32 @@
+aid: covid-tracking-project
+name: Covid Tracking Project
+description: "Covid-19  data for the US"
+url: https://covidtracking.com/data/api/version-2
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Health"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Health
+  - Public APIs
+apis:
+  - name: Covid Tracking Project
+    description: "Covid-19  data for the US"
+    humanURL: https://covidtracking.com/data/api/version-2
+    baseURL: https://covidtracking.com/data/api/version-2
+    tags:
+      - Health
+    properties:
+      - type: Documentation
+        url: https://covidtracking.com/data/api/version-2
+common:
+  - type: Website
+    url: https://covidtracking.com/data/api/version-2
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
