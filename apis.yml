@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://covidtracking.com/data/api/version-2
 common:
+  - type: DomainSecurity
+    url: security/covid-tracking-project-domain-security.yml
   - type: Website
     url: https://covidtracking.com/data/api/version-2
   - type: PublicAPIsListing
