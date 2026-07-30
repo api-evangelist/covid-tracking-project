@@ -1,4 +1,16 @@
 aid: covid-tracking-project
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/covid-tracking-project.png
 name: Covid Tracking Project
 description: "Covid-19  data for the US"
 url: https://covidtracking.com/data/api/version-2
