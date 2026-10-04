@@ -39,7 +39,6 @@ apis:
   - name: Covid Tracking Project
     description: "Covid-19  data for the US"
     humanURL: https://covidtracking.com/data/api/version-2
-    baseURL: https://covidtracking.com/data/api/version-2
     tags:
       - Health
     properties:
