@@ -1,0 +1,51 @@
+edges:
+- partner_name: ELIXIR bio.tools (Web API records)
+  partner: null
+  partner_match: register
+  type: register
+  direction: partner-built
+  channel: standard-directory
+  relationship: standard-participant
+  evidence: https://bio.tools/t?toolType=%22Web%20API%22
+  match:
+    method: domain
+    domain: covidtracking.com
+    seen_as:
+    - homepage
+    registered_as:
+    - COVID-TRACK
+  life_sciences:
+    register: biotools
+    listings:
+    - id: covid-track
+      name: COVID-TRACK
+    listings_total: 1
+    signals:
+    - Infectious disease
+    - Medical informatics
+    - Preclinical and clinical studies
+    - Public health and epidemiology
+    - Regulatory affairs
+  contract_reference:
+    register: ELIXIR bio.tools (Web API records)
+    spec_file: null
+    role: biotools-web-api
+    registered_name: COVID-TRACK
+    register_id: covid-track
+    matched_domain: covidtracking.com
+    detected_by: sweep-life-sciences.py
+    detected: '2026-10-15'
+  detected_by: sweep-life-sciences.py
+  first_seen: '2026-10-15'
+generated: '2026-10-15'
+method: searched
+source:
+- https://bio.tools/api/tool/?format=json&toolType=%22Web%20API%22&page=1
+- https://registry.api.identifiers.org/resolutionApi/getResolverDataset
+- https://registry.ga4gh.org/v1/implementations
+- https://registry.ga4gh.org/v1/services
+checked:
+- https://bio.tools/api/tool/?format=json&toolType=%22Web%20API%22&page=1
+- https://registry.api.identifiers.org/resolutionApi/getResolverDataset
+- https://registry.ga4gh.org/v1/implementations
+- https://registry.ga4gh.org/v1/services
